@@ -52,6 +52,8 @@
     width: 100%;
     justify-content: center;
     position: relative;
+    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .product-examples {
@@ -79,8 +81,24 @@
     padding: 0.5rem;
 }
 
+.staff-links {
+    display: flex;
+    width: 75%;
+    justify-content: center;
+    align-items: center;
+}
 
+.profile-tile {
+    display: block;
+    width: 25%;
+    height: 50%;
+    align-items: center;
+}
 
+.profile-tile img {
+    width: 8rem;
+    height: 8rem;
+}
 
 footer {
     height: 3rem;
